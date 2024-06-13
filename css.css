@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0
+}
+
+#bodyshame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#textarea {
+	flex: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	size: 40px;
+}
+
+textarea {
+	width: 550px;
+	height: 400px;
+	padding: 5px;
+	margin: 30px;
+	resize: none;
+	white-space: pre;
+	overflow-wrap: normal;
+}
